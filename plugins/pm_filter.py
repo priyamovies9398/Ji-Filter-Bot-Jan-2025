@@ -1002,7 +1002,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview = True
 	)
     elif query.data == "mydevelopers":
-        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @PriyaMovis\n👨‍💻 @Djreme\n👨‍💻 Movie_Loverzz Mawa\n👨‍💻 @Sai_File_Store\n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
+        await query.answer("Meet the persons behind this project/bot:\n\n👨‍💻 @PriyaMovis\n👨‍💻 @Djreme\n👨‍💻 @Priya_Updates\n👨‍💻 @Sai_File_Store_CC\n\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
  
     elif query.data == "Source":
         buttons = [[
